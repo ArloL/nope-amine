@@ -1,0 +1,25 @@
+{
+  "description": "Slow down requests to reddit stuff",
+  "manifest_version": 2,
+  "name": "nope-amine",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/http-response",
+  "icons": {
+    "48": "pen.svg"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}
