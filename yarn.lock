@@ -41,12 +41,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.24.6":
-  version: 7.24.6
-  resolution: "@babel/runtime@npm:7.24.6"
+"@babel/runtime@npm:7.24.7":
+  version: 7.24.7
+  resolution: "@babel/runtime@npm:7.24.7"
   dependencies:
     regenerator-runtime: ^0.14.0
-  checksum: 44d95ca743898fed31b4cefef31de6fd3cf7906e94493368e9d6538289cc52c6c46185205d9c01d38466a5b3f673550f80892d30b1ed02a2c13e704863a8cc48
+  checksum: d17f29eed6f848ac15cdf4202a910b741facfb0419a9d79e5c7fa37df6362fc3227f1cc2e248cc6db5e53ddffb4caa6686c488e6e80ce3d29c36a4e74c8734ea
   languageName: node
   linkType: hard
 
@@ -169,10 +169,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdn/browser-compat-data@npm:5.5.29":
-  version: 5.5.29
-  resolution: "@mdn/browser-compat-data@npm:5.5.29"
-  checksum: c48a1752ea13080a5d0e7390f6d12c091515990a15cbb3a23a3b64ef82162b4a4bdc5582dad0a5e72c17972c90198bec70580d17e2a9ea4bc61f97412710f131
+"@mdn/browser-compat-data@npm:5.5.32":
+  version: 5.5.32
+  resolution: "@mdn/browser-compat-data@npm:5.5.32"
+  checksum: 5811e2080c60348ddbccecebf1e3e06c5b1f9df59ce7501e94065ff6c8964a3d72287797a6e5874e8b090ebdcee9b93164267ef89fc3154295ff618a2eb0c4a2
   languageName: node
   linkType: hard
 
@@ -348,15 +348,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"addons-linter@npm:6.28.0":
-  version: 6.28.0
-  resolution: "addons-linter@npm:6.28.0"
+"addons-linter@npm:6.29.0":
+  version: 6.29.0
+  resolution: "addons-linter@npm:6.29.0"
   dependencies:
     "@fluent/syntax": 0.19.0
-    "@mdn/browser-compat-data": 5.5.29
+    "@mdn/browser-compat-data": 5.5.32
     addons-moz-compare: 1.3.0
     addons-scanner-utils: 9.10.1
-    ajv: 8.13.0
+    ajv: 8.16.0
     chalk: 4.1.2
     cheerio: 1.0.0-rc.12
     columnify: 1.6.0
@@ -385,7 +385,7 @@ __metadata:
     yauzl: 2.10.0
   bin:
     addons-linter: bin/addons-linter
-  checksum: 6aae3c988d506aa73da8336a5ddb092f88bd3ee2cacdc50a8983fc102f181da063e1db4f5bdd56d1e654e4461811c2f5fe60df12dd819cde194b2371c695fa59
+  checksum: 0d176da9a9a4df9191e66b6ebb98a18734d0eaa30d9cdf598cb1da922a58029592a947377d589d8c8b8e8e5f8ca1ad131377f914858fc2b965296faac60ea801
   languageName: node
   linkType: hard
 
@@ -468,15 +468,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:8.13.0":
-  version: 8.13.0
-  resolution: "ajv@npm:8.13.0"
+"ajv@npm:8.16.0":
+  version: 8.16.0
+  resolution: "ajv@npm:8.16.0"
   dependencies:
     fast-deep-equal: ^3.1.3
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.4.1
-  checksum: 6de82d0b2073e645ca3300561356ddda0234f39b35d2125a8700b650509b296f41c00ab69f53178bbe25ad688bd6ac3747ab44101f2f4bd245952e8fd6ccc3c1
+  checksum: bdf3d4c9f1d11e220850051ef4cd89346e951cfb933d6d41be36d45053c1092af1523ee6c62525cce567355caf0a4f4c19a08a93851649c1fa32b4a39b7c4858
   languageName: node
   linkType: hard
 
@@ -2509,10 +2509,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:4.15.5":
-  version: 4.15.5
-  resolution: "jose@npm:4.15.5"
-  checksum: 7dde76447c7707bd4b448f914b216f3858e701aa83f00447434252461af5b9e159dcbffb88badea3f9616739526763581267c9560622f0a058df8d68c86d7f79
+"jose@npm:5.4.0":
+  version: 5.4.0
+  resolution: "jose@npm:5.4.0"
+  checksum: 9ec96d6c9711419f5ad983017cb59bf51ec975abb8b839d04e33d8fd701cf19b0f3c2ce34426eeeaa7dc2126c8745eb8117c6b3b04f202602804dd39b0a349ae
   languageName: node
   linkType: hard
 
@@ -3750,7 +3750,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    web-ext: ^8.0.0
+    web-ext: ^8.1.0
   languageName: unknown
   linkType: soft
 
@@ -4425,13 +4425,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-ext@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "web-ext@npm:8.0.0"
+"web-ext@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "web-ext@npm:8.1.0"
   dependencies:
-    "@babel/runtime": 7.24.6
+    "@babel/runtime": 7.24.7
     "@devicefarmer/adbkit": 3.2.6
-    addons-linter: 6.28.0
+    addons-linter: 6.29.0
     bunyan: 1.8.15
     camelcase: 8.0.0
     chrome-launcher: 0.15.1
@@ -4442,7 +4442,7 @@ __metadata:
     fs-extra: 11.2.0
     fx-runner: 1.4.0
     https-proxy-agent: ^7.0.0
-    jose: 4.15.5
+    jose: 5.4.0
     jszip: 3.10.1
     mkdirp: 1.0.4
     multimatch: 6.0.0
@@ -4463,7 +4463,7 @@ __metadata:
     zip-dir: 2.0.0
   bin:
     web-ext: bin/web-ext.js
-  checksum: 48fa527ca88dd21ddf266eca80bf0f3700f1d04eeb59a4d52b54abaa9b806e478bef151e24febf69198e6eb69424802359174feab2404915e161299de3338729
+  checksum: a4879b34f8fd8c37b51f36e319d1cf522bab126165b43880ea35a9ae097cf98a4e244992ef261f2c52ac3d3679ecb7929833289bc6566a5121665be8488f0cf4
   languageName: node
   linkType: hard
 
