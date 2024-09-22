@@ -1,0 +1,14 @@
+*
+!.gitignore
+!/releases/
+!/releases/**/*
+!/patches/
+!/patches/**/*
+!/plugins/
+!/plugins/**/*
+!/sdks/
+!/sdks/**/*
+!/versions/
+!/versions/**/*
+
+# Add custom ignores after this line to be preserved during automated updates
