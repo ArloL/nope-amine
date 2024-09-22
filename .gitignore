@@ -1,3 +1,5 @@
 /node_modules/
 
 # Add custom ignores after this line to be preserved during automated updates
+
+/web-ext-artifacts/
