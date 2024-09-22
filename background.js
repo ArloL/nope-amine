@@ -1,7 +1,7 @@
-const min = 1750;
+const min = 750;
 const globalMax = 7500;
 const mediaMax = 4000;
-let count = 1000;
+let count = 0;
 
 function listener(requestDetails) {
   count++;
