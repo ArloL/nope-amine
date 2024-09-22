@@ -19,7 +19,7 @@ function listener(requestDetails) {
   console.log(count, url, requestDetails, timeout);
   return new Promise((resolve) => {
     window.setTimeout(() => {
-      resolve({ url: requestDetails.url });
+      resolve({ cancel: false });
     }, timeout);
   });
 }
