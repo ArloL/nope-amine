@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "web-ext": "^8.7.1"
+    "web-ext": "^8.8.0"
   },
   "packageManager": "yarn@3.6.4"
 }

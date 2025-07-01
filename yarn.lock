@@ -41,10 +41,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.27.1":
-  version: 7.27.1
-  resolution: "@babel/runtime@npm:7.27.1"
-  checksum: 11339838a54783e5b14e04d94d7a4d032e9965c5823f3f687e41556fa40344ae7aeb57c535720b7a74ab3e8217def7834a6f1a665ee55bbb3befede141419913
+"@babel/runtime@npm:7.27.6":
+  version: 7.27.6
+  resolution: "@babel/runtime@npm:7.27.6"
+  checksum: 3f7b879df1823c0926bd5dbc941c62f5d60faa790c1aab9758c04799e1f04ee8d93553be9ec059d4e5882f19fe03cbe8933ee4f46212dced0f6d8205992c9c9a
   languageName: node
   linkType: hard
 
@@ -160,10 +160,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdn/browser-compat-data@npm:6.0.16":
-  version: 6.0.16
-  resolution: "@mdn/browser-compat-data@npm:6.0.16"
-  checksum: 597b8450544de86bb6a5b8c2705322f97fb8e179a59df541957e7a65104fa2148ed6c44c927ad98165a4323cc58efdf2c1e1c5c3d0ab48ef2e964386a776d228
+"@mdn/browser-compat-data@npm:6.0.23":
+  version: 6.0.23
+  resolution: "@mdn/browser-compat-data@npm:6.0.23"
+  checksum: b4bbf689fec3f24fc0a116022c265dc109af1028962a9d9a957f68d3ddf3e588276d41dafefcdf86206900191bfe74037750797f5048ff5e04badd4fb4b2863b
   languageName: node
   linkType: hard
 
@@ -276,12 +276,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.14.0":
-  version: 8.14.0
-  resolution: "acorn@npm:8.14.0"
+"acorn@npm:^8.15.0":
+  version: 8.15.0
+  resolution: "acorn@npm:8.15.0"
   bin:
     acorn: bin/acorn
-  checksum: 8755074ba55fff94e84e81c72f1013c2d9c78e973c31231c8ae505a5f966859baf654bddd75046bffd73ce816b149298977fff5077a3033dedba0ae2aad152d4
+  checksum: 309c6b49aedf1a2e34aaf266de06de04aab6eb097c02375c66fdeb0f64556a6a823540409914fb364d9a11bc30d79d485a2eba29af47992d3490e9886c4391c3
   languageName: node
   linkType: hard
 
@@ -294,13 +294,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"addons-linter@npm:7.13.0":
-  version: 7.13.0
-  resolution: "addons-linter@npm:7.13.0"
+"addons-linter@npm:7.15.0":
+  version: 7.15.0
+  resolution: "addons-linter@npm:7.15.0"
   dependencies:
     "@fluent/syntax": 0.19.0
     "@fregante/relaxed-json": 2.0.0
-    "@mdn/browser-compat-data": 6.0.16
+    "@mdn/browser-compat-data": 6.0.23
     addons-moz-compare: 1.3.0
     addons-scanner-utils: 9.13.0
     ajv: 8.17.1
@@ -311,8 +311,8 @@ __metadata:
     deepmerge: 4.3.1
     eslint: 8.57.1
     eslint-plugin-no-unsanitized: 4.1.2
-    eslint-visitor-keys: 4.2.0
-    espree: 10.3.0
+    eslint-visitor-keys: 4.2.1
+    espree: 10.4.0
     esprima: 4.0.1
     fast-json-patch: 3.1.1
     image-size: 2.0.2
@@ -325,7 +325,7 @@ __metadata:
     yauzl: 2.10.0
   bin:
     addons-linter: bin/addons-linter
-  checksum: 9db715276ba990d7f463b3b6c802f272ffc5b0d8ef37bc1ad17a9b5c0caca06b904a4428aa521f1f501508a76eb30c19288a7be81cbcb8424f5e5a68eeda6488
+  checksum: ea105063fa0ad8f25dd921400d6f77e66715c3636349df105815ffbe577ceac66ac6b51e10f883d743b7560078f5eeeaf577cedbda1dccc74372f489da90486b
   languageName: node
   linkType: hard
 
@@ -1078,10 +1078,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:4.2.0, eslint-visitor-keys@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "eslint-visitor-keys@npm:4.2.0"
-  checksum: 779c604672b570bb4da84cef32f6abb085ac78379779c1122d7879eade8bb38ae715645324597cf23232d03cef06032c9844d25c73625bc282a5bfd30247e5b5
+"eslint-visitor-keys@npm:4.2.1, eslint-visitor-keys@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "eslint-visitor-keys@npm:4.2.1"
+  checksum: 3a77e3f99a49109f6fb2c5b7784bc78f9743b834d238cdba4d66c602c6b52f19ed7bcd0a5c5dbbeae3a8689fd785e76c001799f53d2228b278282cf9f699fff5
   languageName: node
   linkType: hard
 
@@ -1147,14 +1147,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"espree@npm:10.3.0":
-  version: 10.3.0
-  resolution: "espree@npm:10.3.0"
+"espree@npm:10.4.0":
+  version: 10.4.0
+  resolution: "espree@npm:10.4.0"
   dependencies:
-    acorn: ^8.14.0
+    acorn: ^8.15.0
     acorn-jsx: ^5.3.2
-    eslint-visitor-keys: ^4.2.0
-  checksum: 63e8030ff5a98cea7f8b3e3a1487c998665e28d674af08b9b3100ed991670eb3cbb0e308c4548c79e03762753838fbe530c783f17309450d6b47a889fee72bef
+    eslint-visitor-keys: ^4.2.1
+  checksum: 5f9d0d7c81c1bca4bfd29a55270067ff9d575adb8c729a5d7f779c2c7b910bfc68ccf8ec19b29844b707440fc159a83868f22c8e87bbf7cbcb225ed067df6c85
   languageName: node
   linkType: hard
 
@@ -2456,7 +2456,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    web-ext: ^8.7.1
+    web-ext: ^8.8.0
   languageName: unknown
   linkType: soft
 
@@ -2924,13 +2924,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-ext@npm:^8.7.1":
-  version: 8.7.1
-  resolution: "web-ext@npm:8.7.1"
+"web-ext@npm:^8.8.0":
+  version: 8.8.0
+  resolution: "web-ext@npm:8.8.0"
   dependencies:
-    "@babel/runtime": 7.27.1
+    "@babel/runtime": 7.27.6
     "@devicefarmer/adbkit": 3.3.8
-    addons-linter: 7.13.0
+    addons-linter: 7.15.0
     camelcase: 8.0.0
     chrome-launcher: 1.2.0
     debounce: 1.2.1
@@ -2953,12 +2953,11 @@ __metadata:
     tmp: 0.2.3
     update-notifier: 7.3.1
     watchpack: 2.4.4
-    ws: 8.18.2
     yargs: 17.7.2
     zip-dir: 2.0.0
   bin:
     web-ext: bin/web-ext.js
-  checksum: 34a9ae076e4de21e5c655feb38d0dfd95538fe77e62527f3b3bdaf57a41c87d2f491837bc14b78cd14d147328ef039b97beaefe899b97ceab055f8c10cdddec5
+  checksum: 387caf49cd17fd09469129e36315d861006b4e93364f793dd7bbbc808d7d18222ef59c2c7083d5957b668151b37977e3ce651e665a1b8019f6f8f0e8696c6a78
   languageName: node
   linkType: hard
 
@@ -3041,21 +3040,6 @@ __metadata:
   version: 1.0.2
   resolution: "wrappy@npm:1.0.2"
   checksum: 159da4805f7e84a3d003d8841557196034155008f817172d4e986bd591f74aa82aa7db55929a54222309e01079a65a92a9e6414da5a6aa4b01ee44a511ac3ee5
-  languageName: node
-  linkType: hard
-
-"ws@npm:8.18.2":
-  version: 8.18.2
-  resolution: "ws@npm:8.18.2"
-  peerDependencies:
-    bufferutil: ^4.0.1
-    utf-8-validate: ">=5.0.2"
-  peerDependenciesMeta:
-    bufferutil:
-      optional: true
-    utf-8-validate:
-      optional: true
-  checksum: e38beae19ba4d68577ec24eb34fbfab376333fedd10f99b07511a8e842e22dbc102de39adac333a18e4c58868d0703cd5f239b04b345e22402d0ed8c34ea0aa0
   languageName: node
   linkType: hard
 
