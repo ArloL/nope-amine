@@ -8,7 +8,7 @@ on:
     branches:
     - main
   schedule:
-  - cron: '39 23 24 * *'
+  - cron: "39 23 24 * *"
 permissions: {}
 
 jobs:
