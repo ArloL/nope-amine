@@ -30,10 +30,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.28.6":
-  version: 7.28.6
-  resolution: "@babel/runtime@npm:7.28.6"
-  checksum: 10c0/358cf2429992ac1c466df1a21c1601d595c46930a13c1d4662fde908d44ee78ec3c183aaff513ecb01ef8c55c3624afe0309eeeb34715672dbfadb7feedb2c0d
+"@babel/runtime@npm:7.29.2":
+  version: 7.29.2
+  resolution: "@babel/runtime@npm:7.29.2"
+  checksum: 10c0/30b80a0140d16467792e1bbeb06f655b0dab70407da38dfac7fedae9c859f9ae9d846ef14ad77bd3814c064295fe9b1bc551f1541ea14646ae9f22b71a8bc17a
   languageName: node
   linkType: hard
 
@@ -86,14 +86,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/config-array@npm:^0.21.1":
-  version: 0.21.1
-  resolution: "@eslint/config-array@npm:0.21.1"
+"@eslint/config-array@npm:^0.21.2":
+  version: 0.21.2
+  resolution: "@eslint/config-array@npm:0.21.2"
   dependencies:
     "@eslint/object-schema": "npm:^2.1.7"
     debug: "npm:^4.3.1"
-    minimatch: "npm:^3.1.2"
-  checksum: 10c0/2f657d4edd6ddcb920579b72e7a5b127865d4c3fb4dda24f11d5c4f445a93ca481aebdbd6bf3291c536f5d034458dbcbb298ee3b698bc6c9dd02900fe87eec3c
+    minimatch: "npm:^3.1.5"
+  checksum: 10c0/89dfe815d18456177c0a1f238daf4593107fd20298b3598e0103054360d3b8d09d967defd8318f031185d68df1f95cfa68becf1390a9c5c6887665f1475142e3
   languageName: node
   linkType: hard
 
@@ -115,27 +115,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^3.3.1":
-  version: 3.3.3
-  resolution: "@eslint/eslintrc@npm:3.3.3"
+"@eslint/eslintrc@npm:^3.3.5":
+  version: 3.3.5
+  resolution: "@eslint/eslintrc@npm:3.3.5"
   dependencies:
-    ajv: "npm:^6.12.4"
+    ajv: "npm:^6.14.0"
     debug: "npm:^4.3.2"
     espree: "npm:^10.0.1"
     globals: "npm:^14.0.0"
     ignore: "npm:^5.2.0"
     import-fresh: "npm:^3.2.1"
     js-yaml: "npm:^4.1.1"
-    minimatch: "npm:^3.1.2"
+    minimatch: "npm:^3.1.5"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 10c0/532c7acc7ddd042724c28b1f020bd7bf148fcd4653bb44c8314168b5f772508c842ce4ee070299cac51c5c5757d2124bdcfcef5551c8c58ff9986e3e17f2260d
+  checksum: 10c0/9fb9f1ca65e46d6173966e3aaa5bd353e3a65d7f1f582bebf77f578fab7d7960a399fac1ecfb1e7d52bd61f5cefd6531087ca52a3a3c388f2e1b4f1ebd3da8b7
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.39.2":
-  version: 9.39.2
-  resolution: "@eslint/js@npm:9.39.2"
-  checksum: 10c0/00f51c52b04ac79faebfaa65a9652b2093b9c924e945479f1f3945473f78aee83cbc76c8d70bbffbf06f7024626575b16d97b66eab16182e1d0d39daff2f26f5
+"@eslint/js@npm:9.39.4":
+  version: 9.39.4
+  resolution: "@eslint/js@npm:9.39.4"
+  checksum: 10c0/5aa7dea2cbc5decf7f5e3b0c6f86a084ccee0f792d288ca8e839f8bc1b64e03e227068968e49b26096e6f71fd857ab6e42691d1b993826b9a3883f1bdd7a0e46
   languageName: node
   linkType: hard
 
@@ -201,10 +201,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdn/browser-compat-data@npm:7.3.6":
-  version: 7.3.6
-  resolution: "@mdn/browser-compat-data@npm:7.3.6"
-  checksum: 10c0/67d134e197e2c266b75616d8c388e546013d432404523c54c4e5ec722f5e3e70ebe01496af313e42d58357ad18a0383297f198d8b18558c0e965c412001725a1
+"@mdn/browser-compat-data@npm:7.3.9":
+  version: 7.3.9
+  resolution: "@mdn/browser-compat-data@npm:7.3.9"
+  checksum: 10c0/7119de704926482176f3de75424be882aa02b6abf794fecbd3a5b699317b6e6e1d199145f09bd8e581a8cd9cc906956b239f3e01ef7088d3dcbb95097266aca8
   languageName: node
   linkType: hard
 
@@ -304,22 +304,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"addons-linter@npm:10.1.0":
-  version: 10.1.0
-  resolution: "addons-linter@npm:10.1.0"
+"addons-linter@npm:10.3.0":
+  version: 10.3.0
+  resolution: "addons-linter@npm:10.3.0"
   dependencies:
     "@fluent/syntax": "npm:0.19.0"
     "@fregante/relaxed-json": "npm:2.0.0"
-    "@mdn/browser-compat-data": "npm:7.3.6"
+    "@mdn/browser-compat-data": "npm:7.3.9"
     addons-moz-compare: "npm:1.3.0"
-    addons-scanner-utils: "npm:13.1.0"
+    addons-scanner-utils: "npm:15.0.0"
     ajv: "npm:8.18.0"
     chalk: "npm:4.1.2"
     cheerio: "npm:1.2.0"
     columnify: "npm:1.6.0"
     common-tags: "npm:1.8.2"
     deepmerge: "npm:4.3.1"
-    eslint: "npm:9.39.2"
+    eslint: "npm:9.39.4"
     eslint-plugin-no-unsanitized: "npm:4.1.5"
     eslint-visitor-keys: "npm:5.0.1"
     espree: "npm:11.2.0"
@@ -335,7 +335,7 @@ __metadata:
     yauzl: "npm:3.2.1"
   bin:
     addons-linter: bin/addons-linter
-  checksum: 10c0/4371768b673dbca35461537fe2538afb9b892042d89cae0522eccd25bd0d6f9eac54377a30b97a2f8e8282e442c51889ee7711a2529fadb7b003893793ff6659
+  checksum: 10c0/fbdf17fe0d9f158a591605fa3ef3b32446f5bb3eaeeb0097f0cea2350a697cb3c834e1b1eb5207cf15895dbed2b09c778a603e1bad3f83de8919a9a9f5fd7d15
   languageName: node
   linkType: hard
 
@@ -346,9 +346,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"addons-scanner-utils@npm:13.1.0":
-  version: 13.1.0
-  resolution: "addons-scanner-utils@npm:13.1.0"
+"addons-scanner-utils@npm:15.0.0":
+  version: 15.0.0
+  resolution: "addons-scanner-utils@npm:15.0.0"
   dependencies:
     common-tags: "npm:1.8.2"
     first-chunk-stream: "npm:3.0.0"
@@ -357,17 +357,14 @@ __metadata:
     upath: "npm:2.0.1"
     yauzl: "npm:3.2.1"
   peerDependencies:
-    body-parser: 2.2.2
     express: 5.2.1
     safe-compare: 1.1.4
   peerDependenciesMeta:
-    body-parser:
-      optional: true
     express:
       optional: true
     safe-compare:
       optional: true
-  checksum: 10c0/05663057d785de6b014ef026da867552051b3987189d7112a5110b63f7372133a25d8579bc8ccd988031638a150e5ba09df3a7b99c7cd13f8767de85022df228
+  checksum: 10c0/e1800ad94e3f829cde115cc852e53524b6affe764ea0b7c1fe6ba594552283b64cd420cb8c33de4783155674fd252e55009bd47d4ac20c46f1512187043c350f
   languageName: node
   linkType: hard
 
@@ -399,7 +396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^6.12.4":
+"ajv@npm:^6.14.0":
   version: 6.14.0
   resolution: "ajv@npm:6.14.0"
   dependencies:
@@ -1083,23 +1080,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.39.2":
-  version: 9.39.2
-  resolution: "eslint@npm:9.39.2"
+"eslint@npm:9.39.4":
+  version: 9.39.4
+  resolution: "eslint@npm:9.39.4"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.1"
-    "@eslint/config-array": "npm:^0.21.1"
+    "@eslint/config-array": "npm:^0.21.2"
     "@eslint/config-helpers": "npm:^0.4.2"
     "@eslint/core": "npm:^0.17.0"
-    "@eslint/eslintrc": "npm:^3.3.1"
-    "@eslint/js": "npm:9.39.2"
+    "@eslint/eslintrc": "npm:^3.3.5"
+    "@eslint/js": "npm:9.39.4"
     "@eslint/plugin-kit": "npm:^0.4.1"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@humanwhocodes/retry": "npm:^0.4.2"
     "@types/estree": "npm:^1.0.6"
-    ajv: "npm:^6.12.4"
+    ajv: "npm:^6.14.0"
     chalk: "npm:^4.0.0"
     cross-spawn: "npm:^7.0.6"
     debug: "npm:^4.3.2"
@@ -1118,7 +1115,7 @@ __metadata:
     is-glob: "npm:^4.0.0"
     json-stable-stringify-without-jsonify: "npm:^1.0.1"
     lodash.merge: "npm:^4.6.2"
-    minimatch: "npm:^3.1.2"
+    minimatch: "npm:^3.1.5"
     natural-compare: "npm:^1.4.0"
     optionator: "npm:^0.9.3"
   peerDependencies:
@@ -1128,7 +1125,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/bb88ca8fd16bb7e1ac3e13804c54d41c583214460c0faa7b3e7c574e69c5600c7122295500fb4b0c06067831111db740931e98da1340329527658e1cf80073d3
+  checksum: 10c0/1955067c2d991f0c84f4c4abfafe31bb47fa3b717a7fd3e43fe1e511c6f859d7700cbca969f85661dc4c130f7aeced5e5444884314198a54428f5e5141db9337
   languageName: node
   linkType: hard
 
@@ -1941,12 +1938,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.4, minimatch@npm:^3.1.2":
+"minimatch@npm:^3.0.4":
   version: 3.1.4
   resolution: "minimatch@npm:3.1.4"
   dependencies:
     brace-expansion: "npm:^1.1.7"
   checksum: 10c0/868aab7e5f52570107eb283f021383be111cfeee0817a615f2a9ffe61fdc8fb86d535b9bf169fb8882261e7cb9da22b4d7b6f8b3402037f63558bab173f82212
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "minimatch@npm:3.1.5"
+  dependencies:
+    brace-expansion: "npm:^1.1.7"
+  checksum: 10c0/2ecbdc0d33f07bddb0315a8b5afbcb761307a8778b48f0b312418ccbced99f104a2d17d8aca7573433c70e8ccd1c56823a441897a45e384ea76ef401a26ace70
   languageName: node
   linkType: hard
 
@@ -2814,12 +2820,12 @@ __metadata:
   linkType: hard
 
 "web-ext@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "web-ext@npm:10.0.0"
+  version: 10.1.0
+  resolution: "web-ext@npm:10.1.0"
   dependencies:
-    "@babel/runtime": "npm:7.28.6"
+    "@babel/runtime": "npm:7.29.2"
     "@devicefarmer/adbkit": "npm:3.3.8"
-    addons-linter: "npm:10.1.0"
+    addons-linter: "npm:10.3.0"
     camelcase: "npm:8.0.0"
     chrome-launcher: "npm:1.2.0"
     debounce: "npm:1.2.1"
@@ -2846,7 +2852,7 @@ __metadata:
     zip-dir: "npm:2.0.0"
   bin:
     web-ext: bin/web-ext.js
-  checksum: 10c0/988a51054e2ced7110d2ecbb470299c05b2a53ae38acebb2ebb1047964a39ddcb0877b429a3d5b552269b08f2879a4fb31c5456514eae5c25d72c8c0819b05c0
+  checksum: 10c0/94cc3f885dbaf7bfa65f9290d9e4389d5edfc3de138124134416e4cfe8200402ffd4f3c8f4fd5e60d8349afd53014b485b8953267dc284a34837132eff9497fb
   languageName: node
   linkType: hard
 
