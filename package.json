@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "web-ext": "^10.0.0"
+    "web-ext": "^10.2.0"
   },
   "packageManager": "yarn@4.14.1"
 }
